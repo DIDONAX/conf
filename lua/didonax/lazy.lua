@@ -20,6 +20,8 @@ rtp:prepend(lazypath)
 
 require('lazy').setup({
   { import = 'didonax.plugins' },
+  { import = 'didonax.plugins.autocomplete' },
+  { import = 'didonax.plugins.git' },
 }, {
   ui = {
     icons = vim.g.have_nerd_font and {} or {
